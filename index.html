@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아이리버</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+
+    <!-- //구글폰트 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=IBM+Plex+Sans+KR:wght@300&display=swap" rel="stylesheet">
+    <!-- 구글폰트// -->
+    <!-- 프리텐다드 -->
+    <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+    <!--  -->
+    <!-- https://ionic.io/ionicons/v1 -->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/1.5.2/css/ionicons.min.css">
+    <!--  -->
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/best.css">
+    <link rel="stylesheet" href="css/sound.css">
+    <link rel="stylesheet" href="css/sns.css">
+    <link rel="stylesheet" href="css/brand.css">
+    <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/ham.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- 자바스크립트 -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript"></script>
+    <!-- 슬릭 -->
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#title .title_container').slick({
+                infinite: true, //무한재생
+                slidesToShow: 1, //보여지는 갯수
+                slidesToScroll: 1, //넘어가는 갯수
+                autoplay: true, //자동재생(넘김) 여부
+                autoplaySpeed: 3000, //자동플레이 넘김 시간 설정
+                speed: 4000, //움직이는(넘어가는) 속도 설정
+                dots: true, //닷(페이지네이션)
+                arrows: true, //이동 화살표
+                fade: true, //페이드 효과
+                pauseOnHover: false
+            });
+            $('section#best .container ul').slick({
+                infinite: false,
+                slidesToShow: 4.5,
+                slidesToScroll: 4.5,
+                speed: 1000
+            });
+            $('section#news .container ul').slick({
+                infinite: false,
+                slidesToShow: 4.5,
+                slidesToScroll: 4.5,
+                speed: 1000
+            });
+        });
+    </script>
+</head>
+<body>
+    <!-- 상단영역 -->
+    <header>
+        <div class="top">
+            <h1>
+                <a href="">아이리버</a>
+            </h1>
+            <ul class="gnb flex">
+                <li><a href="">음향가전</a></li>
+                <li><a href="">영상가전</a></li>
+                <li><a href="">스마트가전</a></li>
+                <li><a href="">생활가전</a></li>
+                <li><a href="">PC</a></li>
+                <li><a href="">전체제품</a></li>
+                <li><a href="">고객지원</a></li>
+                <li><a href="">스토어</a></li>
+            </ul>
+            <div class="sublist hide">
+                <div class="menu1">
+                    <h2 class="hide">회사소개</h2>
+                    <ul class="useguide">
+                        <li><a href="">경영 이념</a></li>
+                        <li><a href="">HB PAPER 히스토리</a></li>
+                        <li><a href="">찾아오시는 길</a></li>
+                        <li><a href="">홍보자료</a></li>
+                    </ul>
+                </div>
+                <div class="menu2">
+                    <h2 class="hide">사업소개</h2>
+                    <ul class="useguide">
+                        <li><a href="">시업분야</a></li>
+                        <li><a href="">기술 및 설비</a></li>
+                        <li><a href="">인증서</a></li>
+                    </ul>
+                </div>
+                <div class="menu3">
+                    <h2 class="hide">제품소개</h2>
+                    <ul class="useguide">
+                        <li><a href="">종이 봉투</a></li>
+                        <li><a href="">종이 용기</a></li>
+                        <li><a href="">종이 포장지</a></li>
+                    </ul>
+                </div>
+                <div class="menu4">
+                    <h2 class="hide">커뮤니티</h2>
+                    <ul class="useguide">
+                        <li><a href="">공지사항</a></li>
+                        <li><a href="">온라인문의</a></li>
+                        <li><a href="">보도자료</a></li>
+                    </ul>
+                </div>
+            </div>
+            <span class="side">
+                <a href="">더보기</a>
+                <a href="" class="block ham">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+            </span>
+        </div>
+    </header>
+    <!-- 타이틀영역 -->
+    <div id="title" class="vh100">
+        <div class="title_container">
+            <div class="title_main main1">
+                <h3>Mplayer Free</h3>
+                <p>선 없이 자유로운 디즈니 미키 무선 이어폰1</p>
+                <a href="">자세히 보기</a>
+            </div>
+            <div class="title_main main2">
+                <h3>올인원 로봇청소기</h3>
+                <p>청소의 시작과 끝을 단 하나로</p>
+                <a href="">자세히 보기</a>
+            </div>
+            <div class="title_main main3">
+                <h3>QHD 2채널<br>QHD 2채널</h3>
+                <p>QHD 화질로 블랙박스로 서열을 바꾸다</p>
+                <a href="">자세히 보기</a>
+            </div>
+            <div class="title_main main4">
+                <h3>미니 올인원 CD플레이어</h3>
+                <p>레트로 감성 디자인에 필수 기능만 쏘옥쏙</p>
+                <a href="">자세히 보기</a>
+            </div>
+            <div class="title_main main5">
+                <h3>올인원 프리미엄 오디오</h3>
+                <p>화이트 컬러를 입은 고출력 사운드</p>
+                <a href="">자세히 보기</a>
+            </div>
+        </div>
+    </div>
+    <!-- 메인영역 -->
+    <main>
+        <!-- 베스트 아이템 -->
+        <section id="best" class="padding50 vh100 flex align-center">
+            <div class="container paddingL">
+                <h2 class="category">Best Item</h2>
+                <ul class="best_ul flex">
+                    <li class="textL">
+                        <a href="">
+                            <h3>INS-200</h3>
+                            <h4>올인원스테이션 로봇청소기</h4>
+                            <p>H14, 5,500Pa, 회전형 물걸레, 은이온 정수, 열풍건조, 오존 살균 더스트백</p>
+                        </a>
+                    </li>
+                    <li class="textL">
+                        <a href="">
+                            <h3>IXQ-300</h3>
+                            <h4>QHD 2채널 무선 블랙박스</h4>
+                            <p>3.5형 터치패널, QHD+FHD, Wi-Fi지원, 제품 보증 2년, 타임랩스, 나이트비전</p>
+                        </a>
+                    </li>
+                    <li class="textL">
+                        <a href="">
+                            <h3>Mplayer Free</h3>
+                            <h4>디즈니 미키 무선 이어폰</h4>
+                            <p>블루투스 v5.3, 아이코닉한 디자인, 아이리버만의 사운드, 최대 70시간 대기</p>
+                        </a>
+                    </li>
+                    <li class="textL">
+                        <a href="">
+                            <h3>IAB40</h3>
+                            <h4>미니 올인원 CD플레이어</h4>
+                            <p>CD, 블루투스 IN&OUT, FM라디오, USB, microSD, Line Out</p>
+                        </a>
+                    </li>
+                    <li class="textL">
+                        <a href="">
+                            <h3>IAT60</h3>
+                            <h4>카세트 CD플레이어</h4>
+                            <p>MP3, CD, 카세트 테이프, FM라디오, 배터리 겸용</p>
+                        </a>
+                    </li>
+                    <li class="textL">
+                        <a href="">
+                            <h3>IAW-300D</h3>
+                            <h4>벽걸이 DVD플레이어</h4>
+                            <p>DVD, CD, 블루투스 IN&OUT, USB, FM라디오, 알람, 리모컨</p>
+                        </a>
+                    </li>
+                    <li class="textL">
+                        <a href="">
+                            <h3>IA2000</h3>
+                            <h4>프리미엄 오디오</h4>
+                            <p>60W 고출력, CD플레이어, 블루투스, FM라디오, USB 재생, AUX, RCA</p>
+                        </a>
+                    </li>
+                    <li class="textL">
+                        <a href="">
+                            <h3>IAB30</h3>
+                            <h4>미니 CD플레이어</h4>
+                            <p>미니 디자인, CD, 블루투스, 라디오, USB, 알람</p>
+                        </a>
+                    </li>
+                    <li class="textL">
+                        <a href="">
+                            <h3>IAT65</h3>
+                            <h4>카세트 CD플레이어</h4>
+                            <p>MP3, CD, 카세트 테이프, FM라디오, 배터리 겸용, 리모컨</p>
+                        </a>
+                    </li>
+                    <li class="textL">
+                        <a href="">
+                            <h3>IXP-3000 Dual</h3>
+                            <h4>32GB IPS패널 3채널 FHD 블랙박스</h4>
+                            <p>3.5형 IPS 패널, 3채널 FHD, 제품 보증 2년</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- 음향가전 -->
+        <section id="sound" class="padding100 vh100 flex align-center">
+            <div class="container">
+                <div class="sound_text flexT">
+                    <h2 class="hide">음향가전</h2>
+                    <p class="soundP category">SOUND</p>
+                    <a class="more" href="">view more</a>
+                </div>
+                <ul class="sound_contents flex">
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="img/sound1.jpg" alt="">
+                                <figcaption>
+                                    <h4>프리미엄 오디오<br>IA2000</h4>
+                                    <p>60W 고출력, CD플레이어, 블루투스, FM라디오, USB 재생, AUX, RCA</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="img/sound2.jpg" alt="">
+                                <figcaption>
+                                    <h4>미니 올인원 CD플레이어</h4>
+                                    <p>IAB40</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="img/sound3.jpg" alt="">
+                                <figcaption>
+                                    <h4>포터블 라디오 스피커</h4>
+                                    <p>IRS-C505</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="img/sound4.jpg" alt="">
+                                <figcaption>
+                                    <h4>디즈니 미키 무선 이어폰</h4>
+                                    <p>Mplayer Free</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <figure>
+                                <img src="img/sound5.jpg" alt="">
+                                <figcaption>
+                                    <h4>미니 CD플레이어</h4>
+                                    <p>IAB30</p>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- SNS -->
+        <section id="sns" class="padding50 vh100 flex align-center">
+            <div class="container">
+                <div class="sns_text flexT">
+                    <h2 class="hide">SNS</h2>
+                    <p class="category">@follow IRIVER</p>
+                    <ul class="flex align-center">
+                        <li><a href="">인스타그램</a></li>
+                        <li><a href="">유튜브</a></li>
+                        <li><a href="">네이버마켓</a></li>
+                    </ul>
+                </div>
+                <ul class="sns_contents">
+                    <li>
+                        <a href="">
+                            지난주말 폭풍쇼핑에 내껀 블루투스스피커~♡
+                            라인프랜즈 실리콘필통
+                            초등준비~~♡
+                            유치원입학축하 운동화
+                            딸 아들 이모결혼식 예복?구매 ㅎ
+                            하루종일 돌아다녔더니  몸이  병듬...ㅜㅜ
+                            #현대백화점신촌점#스타필드하남점#신세계백화점하남점#라인프랜즈
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            ✨이거 보는 순간 옛날 감성으로 레드썬✨
+                            요즘 어린이들은 이런거 모루지~?~?~??(라떼)
+                            미키 MP3가 진짜 개추억임ㅠㅋㅋㅋㅋ
+                            @@너껀 뭐였냨ㅋㅋㅋㅋ
+                            .
+                            .
+                            #추억의mp3 #추억 #mp3 #삼성yepp #yepp #아이리버 #애플아이팟#미키마우스mp3 #미키마우스 #코원
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            책장정리한다고 무리했더니
+                            토요일 하루종일 배땡기고
+                            몸살기운으로 말그대로 침대랑
+                            한몸되었다 겨우 정신 차렸어요.
+                            
+                            동지들 말처럼...
+                            역시 무리하면 안되었..... 흑흑😭
+                            
+                            자! 정신 차린 기념(?)🎉
+                            후딱 몇가지 소식 빠르게 전해드릴게요.
+                            
+                            ⓵아이리버 DVD플레이어 
+                            딱! 오늘밤(16일) 밤12시까지만 깜짝진행되어요.
+                            이번에 진행되는 아이는 무려 신제품으로
+                            여리여리 이쁜 핑크와 세련가득 민트 두가지로 진행되고요.
+                            (민트 너무 이뻐서 자꾸 결제창에 손이...가요....)
+                            CD리핑까지 되는 제품이랍니다.
+                            
+                            알파블록스 구입하고 싶은데
+                            또는 구입했는데 DVD플레이어 없어서
+                            어쩌지..어쩌지.. 했던 분들을 위해 깜짝으로
+                            델꼬 왔으니 궁디팡팡 살짝 해주시고 꼭 겟하셔요.🙈
+                            
+                            
+                            ⓶NEW 리뉴얼 알파블록스
+                            
+                            이미 받아보신 분들 많으시죠?!
+                            정말 신기하게 보여주기만 해도 바로 아웃풋 팡팡!!
+                            막 애가 스스스 거리고 크크크 거리고 ㅋㅋㅋㅋ
+                            이건 보여준 분들만 무슨 말인지 아실거에요?!
+                            
+                            DVD와 연계되는 리더스북과 활동북
+                            그리고 너무 귀여운 알파블록스 퍼즐까지!!
+                            500세트 품절이후 영끌하여 수량 넣어 두었고요.
+                            사은품으로 75000원 상당 워드파티 DVD도 드린다는 사실!
+                            
+                            아참! 구입 후 구매완료 댓글 남겨주시면
+                            추첨을 통해서 3분께
+                            영어학습에 꼭 필요한 랜덤교구 보내드릴게요.
+                            구입 후!! 꼭 구매완료댓글 남겨주세요!!!
+                            
+                            그럼 잠시 살아난 루리마은
+                            아침밥 먹으러 가볼게요 😇
+                            
+                            #아이리버dvd플레이어 #dvd플레이어 #알파블록스 #알파블록스dvd
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            #싸이월드 가 알려주는 2007년도 1월 3일 
+                            현 유행하는 #처피뱅 난 벌써 했었늬
+                            '#처피뱅 -  눈썹 위로 일정하게 자른 머리'
+                            처피뱅망한각 #처피뱅현실 #ㅋㅋㅋㅋㅋㅋㅋ 
+                            저 #아이리버mp3 를 보라 #응답하라2007 
+                            ㅍㅎㅎㅎㅎㅎ 
+                            #복고 #돌고도는유행 
+                            택함#통잠염원 주님제발여
+                            
+                            ##다 잠든 지금 이 시간이 내겐 천국이라 꺄오우 #황금시간 😁
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+<span>올인원 로봇청소기 INS-200</span><br>#로봇청소기 #물걸레세척살균 #H14헤파필터 #5,500pa
+                        </a>
+                    </li>
+                </div>
+            </div>
+        </section>
+        <!-- 브랜드 스토리 -->
+        <section id="brand" class="padding50 vh100 flex align-center">
+            <div class="container">
+                <h2 class="hide">브랜드 스토리</h2>
+                <p class="brandP">Redesign Your Life Style, IRIVER</p>
+                <div class="front">
+                    <p>
+                        아이리버는 사운드 제품 정체성을 유지하면서 보다 많은 사람들이 쉽게 이용하고 즐길 수 있는 생활 속 제품, 라이프 스타일 제품을 통해 단순히 제품 사용에 대한 만족만을 추구하는 것이 아니라 고객의 Life Style을 변화시킬 수 있는 가치를 만들고 있습니다.
+                    </p>
+                    <a href="">아이리버 브랜드 스토리 바로가기</a>
+                </div>
+                <ul class="sns_link">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </section>
+        <!-- 뉴스&이벤트 -->
+        <section id="news" class="padding50 vh100 flex align-center">
+            <div class="container">
+                <div class="news_text flexT">
+                    <h2 class="category">News & Event</h2>
+                    <a class="more" href="">view more</a>
+                </div>
+                <ul class="flex">
+                    <li>
+                        <a href="">
+                            <h5>News</h5>
+                            <h3>드림어스컴퍼니, 2년 연속 2023대한민국소비자브랜드대상 수상</h3>
+                            <date>2023.11.30</date>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h5>News</h5>
+                            <h3>무선 블루투스 이어폰  ‘엠플레이어 프리’ 와디즈 프리오더 하루만에 완판</h3>
+                            <date>2023.11.24</date>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h5>News</h5>
+                            <h3>아이리버, 2채널 QHD/FHD 블랙박스 2종 출시</h3>
+                            <date>2023.09.14</date>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h5>News</h5>
+                            <h3>아이리버 벽걸이 DVD 플레이어 ‘IAW-300D’ 출시</h3>
+                            <date>2023.08.07</date>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h5>News</h5>
+                            <h3>아이리버, 로봇청소기 ‘에이클’ 업그레이드 출시… 물걸레 세척 기능 탑재</h3>
+                            <date>2023.07.17</date>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h5>News</h5>
+                            <h3>아이리버, 미니 올인원 CD플레이어 IAB40 출시</h3>
+                            <date>2023.06.26</date>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h5>News</h5>
+                            <h3>아이리버 로봇청소기 라이프스타일 샵 네모네 입점</h3>
+                            <date>2023.03.28</date>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h5>News</h5>
+                            <h3>‘아이리버 로봇청소기 남다른 서비스’로 AS 차별화</h3>
+                            <date>2023.02.14</date>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h5>Event</h5>
+                            <h3>아이리버 IA2000 론칭 리그램이벤트</h3>
+                            <date>2022.12.01
+                                ~ 2022.12.11</date>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <h5>News</h5>
+                            <h3>아이리버, 올인원 프리미엄 오디오 IA2000 출시</h3>
+                            <date>2022.11.24</date>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <!-- 우측슬라이드아이콘 -->
+    <!-- <aside>
+        <ul>
+            <li><a href="" class="currentB eng">intro</a></li>
+            <li><a href="">VIDEO</a></li>
+            <li><a href="">PROMPTION</a></li>
+            <li><a href="">BUSINESS</a></li>
+            <li><a href="">PRODUCT</a></li>
+            <li><a href="">NEWS</a></li>
+        </ul>
+    </aside> -->
+    <!-- 하단영역 -->
+    <footer>
+        <div class="wrap grid">
+            <h1 class="hide">아이리버</h1>
+            <ul class="footerMenu flex">
+                <li><a href="">브랜드 스토리</a></li>
+                <li><a href="">이용약관</a></li>
+                <li><a href="">개인정보처리방침</a></li>
+                <li><a href="">저작권 안내</a></li>
+                <li><a href="">Opne Source</a></li>
+            </ul>
+            <select>
+                <option value="">Family Site</option>
+                <option value="">Dreamus Company</option>
+                <option value="">Astell&Kern</option>
+                <option value="">FLO</option>
+            </select>
+            <p class="contact">㈜드림어스컴퍼니<br>고객센터 1577-5557 | Email. iriver@iriver.com </p>
+            <adress>서울시 서초구 방배로18길 5 (06664) 
+                사업자등록번호 214-86-29288 
+                대표이사 김동훈 </adress>
+            <p class="copy">Copyright © Dreamus Company, ALL RIGHT RESERVED</p>
+            <ul class="footerSns flex">
+                <li><a href="">인스타그램</a></li>
+                <li><a href="">유튜브</a></li>
+                <li><a href="">네이버마켓</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+
+</body>
+</html>

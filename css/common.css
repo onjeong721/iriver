@@ -1,0 +1,187 @@
+body{
+  background-color: white;
+}
+.wrap{
+  max-width: 1520px;
+  margin: 0 auto;
+}
+.container{
+  margin-left: 220px;
+  overflow: hidden;
+}
+.flexT{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px;
+}
+/* 패딩 */
+.padding50{
+  padding: 50px 0;
+}
+.paddingT50{
+  padding-top: 50px;
+}
+.paddingR50{
+  padding-right: 50px;
+}
+.paddingB50{
+  padding-bottom: 50px;
+}
+.paddingL{
+  margin-left: 220px;
+}
+.padding100{
+  padding: 100px 0;
+}
+
+/* 마진 */
+.margin50{
+  margin: 50px;
+}
+.marginT50{
+  margin-top: 50px;
+}
+.marginR50{
+  margin-right: 50px;
+}
+.marginB50{
+  margin-bottom: 50px !important;
+}
+.marginL50{
+  margin-left: 50px;
+}
+/* 폰트 */
+.h1{
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #065310;
+}
+.h2{
+  font-size: 54px;
+  text-transform: capitalize;
+  margin-bottom:20px;
+  font-weight: 200;
+}
+.h3{
+  font-size: 18px;
+}
+.h4{
+  font-size: 25px;
+  color: #3B9447;
+  font-weight: bold;
+}
+.h5{
+  font-size: 22px;
+}
+.h6{
+  font-size: 20px;
+}
+.p{
+  font-size: 16px;
+  line-height: 1.5;
+}
+.p14{
+  font-size: 14px;
+  line-height: 1.6;
+}
+.textL{
+  text-align: start;
+}
+.category{
+  font-size: 30px;
+}
+/* flex */
+.flex{
+  display: flex;
+}
+.between{
+  justify-content: space-between;
+}
+.center{
+  justify-content: center;
+}
+
+.align-center{
+  align-items: center;
+}
+.column{
+  flex-direction: column;
+}
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+/* 그리드 */
+.grid24{
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-template-rows: auto auto auto auto;
+}
+/* 가상선택자 */
+main .h2::before{
+  content: "";
+  font-size: 25px;
+  height: 3px;
+  width: 60px;
+  display:block;
+  background-color: orange;
+  margin-bottom: 10px;
+}
+.sasun::before{
+  content: "/";
+  margin-right: 20px;
+}
+
+
+/* 블럭,인라인 */
+.block{
+  display: block;
+}
+
+/* 정렬 */
+.text-center{
+  text-align: center;
+}
+
+/* 둥근모서리 */
+.borderR30{
+  border-radius: 30px;
+}
+
+/* 라인 */
+.line{
+  border-left: 1px solid #ccc;
+  height: 10px;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+/* 안보이게 */
+.hide{
+  display: none;
+  font-size: 0;
+}
+
+/* 높이 */
+.vh100{
+  height: 100vh;
+  box-sizing: border-box;
+  min-height: 800px;
+}
+.h100{
+  height: 100%;
+}
+
+.eng{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+

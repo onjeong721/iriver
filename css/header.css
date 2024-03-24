@@ -1,0 +1,123 @@
+header {
+
+  position: fixed;
+  z-index: 1;
+}
+header .top {
+
+  width: 1841px;
+  height: 120px;
+  grid-template-columns: auto 1fr auto;
+  display: grid;
+  align-items: center;
+}
+header .top h1 {
+  
+  padding: 0 50px;
+}
+header .top h1 a{
+  font-size: 0px;
+  background-image: url(../img/logo.svg);
+  width: 109px;
+  height: 18px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+header .top ul.gnb {
+  gap: 70px;
+  padding: 0 100px;
+}
+header .top ul.gnb li {
+  
+}
+header .top ul.gnb li a {
+  position: relative;
+  font-size: 18px;
+}
+
+header .top ul.gnb li:nth-child(-n+3) a::after{
+  content: "N";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 18px;
+  position: absolute;
+  right: -20px;
+  top: -10px;
+}
+header .top ul.gnb li:last-child a::after{
+  content: "";
+  display: inline-block;
+  background-image: url(../img/gosite.svg);
+  width: 13px;
+  height: 13px;
+  margin-left: 3px;
+  background-repeat: no-repeat;
+}
+header .top .sublist {
+
+}
+header .top .sublist div {
+  
+}
+header .top .sublist div h2 {
+  
+}
+header .top .sublist div ul.useguide {
+  
+}
+header .top .sublist div ul.useguide li {
+  
+}
+header .top .sublist div ul.useguide li a {
+  
+}
+header .top span.side {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+header .top span.side a {
+
+}
+header .top span.side a:first-child{
+  font-size: 0px;
+  background-image: url(../img/search.svg);
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+header .top span.side a:nth-child(2){
+  font-size: 0px;
+  background-image: url(../img/ham.png);
+  width: 54px;
+  height: 54px;
+  display: block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+header .top span.side a span{
+
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,120 @@
+section#best {
+  
+}
+section#best .container {
+  overflow: hidden;
+}
+section#best .container h2 {
+  padding: 0 0 50px 100px;
+  font-size: 38px;
+}
+section#best .container ul { 
+  /*! gap: 20px; */
+}
+section#best .container ul li {
+  width: 340px;
+  height: 450px;
+}
+section#best .container ul li a::before{
+  content: "";
+  display: block;
+  background-image: url(../img/best1.png);
+  background-size: initial;
+  background-position: center;
+  background-color: #f0f0f0;
+  width: 340px;
+  height: 340px;
+  background-repeat: no-repeat;
+}
+section#best .container ul li:nth-child(2) a::before{
+  background-image: url(../img/best2.png);
+}
+section#best .container ul li:nth-child(3) a::before{
+  background-image: url(../img/best3.png);
+}
+section#best .container ul li:nth-child(4) a::before{
+  background-image: url(../img/best4.png);
+}
+section#best .container ul li:nth-child(5) a::before{
+  background-image: url(../img/best5.png);
+}
+section#best .container ul li:nth-child(6) a::before{
+  background-image: url(../img/best6.png);
+}
+section#best .container ul li:nth-child(7) a::before{
+  background-image: url(../img/best7.png);
+}
+section#best .container ul li:nth-child(8) a::before{
+  background-image: url(../img/best8.png);
+}
+section#best .container ul li:nth-child(9) a::before{
+  background-image: url(../img/best9.png);
+}
+section#best .container ul li:nth-child(10) a::before{
+  background-image: url(../img/best10.png);
+}
+
+section#best .container ul li a {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+section#best .container ul li:hover a::after{
+  opacity: 1;
+}
+section#best .container ul li a:after{
+  content: "";
+  display: block;
+  background-image: url(../img/best11.jpg);
+  width: 340px;
+  height: 340px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.5s;
+}
+section#best .container ul li:nth-child(2) a:after{
+  background-image: url(../img/best22.jpg);
+}
+section#best .container ul li:nth-child(3) a:after{
+  background-image: url(../img/best33.jpg);
+}
+section#best .container ul li:nth-child(4) a:after{
+  background-image: url(../img/best44.jpg);
+}
+section#best .container ul li:nth-child(5) a:after{
+  background-image: url(../img/best55.jpg);
+}
+section#best .container ul li:nth-child(6) a:after{
+  background-image: url(../img/best66.jpg);
+}
+section#best .container ul li:nth-child(7) a:after{
+  background-image: url(../img/best77.jpg);
+}
+section#best .container ul li:nth-child(8) a:after{
+  background-image: url(../img/best88.jpg);
+}
+section#best .container ul li:nth-child(9) a:after{
+  background-image: url(../img/best99.jpg);
+}
+section#best .container ul li:nth-child(10) a:after{
+  background-image: url(../img/best00.jpg);
+}
+section#best .container ul li a h3 {
+  
+  font-size: 14px;
+  color: red;
+}
+section#best .container ul li a h4 {
+  
+  font-size: 18px;
+}
+section#best .container ul li a p {
+  
+  line-height: 1.5;
+}

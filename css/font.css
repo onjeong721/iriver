@@ -1,0 +1,17 @@
+/* body{
+   font-family: 'Noto Sans KR', sans-serif;
+   font-weight: 400;
+} */
+body{
+   font-family: "NanumBarunGothic", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+/* hs겨울눈꽃체 */
+
+@font-face {
+   font-family: 'snowflower';
+   src: url('font/HSGyeoulNoonkott2.0-Regular.woff') format('woff');
+   font-weight: 400;
+   font-style: normal;
+}
+
+

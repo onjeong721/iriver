@@ -1,0 +1,23 @@
+.ham{
+   width: 25px;
+   height: 20px;
+   margin-right: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .ham span{
+   width: 100%;
+   height: 2px;
+   background-color: black;
+ }
+ .ham span:nth-child(1){
+    width: 80%;
+ }
+ .ham span:nth-child(2){
+
+ }
+ .ham span:nth-child(3){
+    width: 80%;
+ }

@@ -1,0 +1,112 @@
+section#sound {
+  
+}
+section#sound .container {
+  
+}
+section#sound .container .sound_text {  
+   display: flex;
+   justify-content: space-between;
+}
+section#sound .container .sound_text h2 {
+  
+}
+section#sound .container .sound_text p {
+  
+   font-size: 38px;
+   padding: 0 0 50px 100px;
+}
+section#sound .container .sound_text a {
+  
+   display: block;
+   align-self: center;
+   padding: 0 50px;
+}
+section#sound .container ul.sound_contents{
+ display: grid;
+ grid-template-columns: auto auto auto auto;
+ grid-template-rows: auto auto;
+ column-gap: 10px;
+ row-gap: 10px;
+ box-sizing: border-box;
+ grid-auto-flow: dense;
+ align-items: center;
+}
+section#sound .container ul.sound_contents li{
+   width: 100%;
+   height: 100%;
+}
+section#sound .container ul.sound_contents li:first-child{
+   grid-column: 1;
+   grid-row: 1 /span 2;
+}
+section#sound .container ul.sound_contents li:nth-child(2){
+   grid-row: 1;
+   grid-column: 2 / span 3;
+}
+section#sound .container ul.sound_contents li:nth-child(3){
+   grid-column: 5;
+   grid-row: 1;
+}
+section#sound .container ul.sound_contents li:nth-child(4){
+   grid-column: 2;
+   grid-row: 2;
+}
+section#sound .container ul.sound_contents li:nth-child(5){
+   grid-column: 3 / span 4;
+   grid-row: 2;
+}
+section#sound .container ul.sound_contents li a {
+  
+   width: 100%;
+   height: 100%;
+   display: block;
+}
+section#sound .container ul.sound_contents li a figure {  
+   position: relative;
+   width: 100%;
+   height: 100%;
+}
+section#sound .container ul.sound_contents li a figure img {
+  
+   width: 100%;
+   height: 100%;
+}
+section#sound .container ul.sound_contents li:nth-child(2) a figure img{
+   
+}
+section#sound .container ul.sound_contents li:nth-child(3) a figure img{
+   
+}
+section#sound .container ul.sound_contents li:nth-child(4) a figure img{
+   
+}
+section#sound .container ul.sound_contents li:nth-child(5) a figure img{
+   
+}
+section#sound .container ul.sound_contents li a figure figcaption {
+   position: absolute;
+   top: 0;
+   background-color: rgba(0,0,0,0.6);
+   width: 100%;
+   height: 100%;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color: white;
+   gap: 20px;
+   opacity: 0;
+   transition: 0.5s;
+}
+section#sound .container ul.sound_contents li a figure figcaption:hover{
+   opacity: 1;
+}
+section#sound .container ul.sound_contents li a figure figcaption h4 { 
+   font-size: 28px;
+   font-weight: bold;
+}
+section#sound .container ul.sound_contents li a figure figcaption p {
+  
+   font-size: 18px;
+}

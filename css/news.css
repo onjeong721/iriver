@@ -1,0 +1,84 @@
+section#news {
+  
+}
+section#news .container {
+  
+  overflow: hidden;
+}
+section#news .container .news_text {  
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px;
+}
+section#news .container .news_text h2 {
+  
+}
+section#news .container .news_text a {
+  
+}
+section#news .container ul {
+  
+  gap: 20px;
+}
+section#news .container ul li {
+  
+}
+section#news .container ul li a::before{
+  content: "";
+  display: block;
+  background-image: url(../img/news1.jpg);
+  width: 340px;
+  height: 340px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+section#news .container ul li:nth-child(2) a::before{
+  background-image: url(../img/news2.jpg);
+}
+section#news .container ul li:nth-child(3) a::before{
+  background-image: url(../img/news3.jpg);
+}
+section#news .container ul li:nth-child(4) a::before{
+  background-image: url(../img/news4.jpg);
+}
+section#news .container ul li:nth-child(5) a::before{
+  background-image: url(../img/news5.jpg);
+}
+section#news .container ul li:nth-child(6) a::before{
+  background-image: url(../img/news6.jpg);
+}
+section#news .container ul li:nth-child(7) a::before{
+  background-image: url(../img/news7.jpg);
+}
+section#news .container ul li:nth-child(8) a::before{
+  background-image: url(../img/news8.jpg);
+}
+section#news .container ul li:nth-child(9) a::before{
+  background-image: url(../img/news9.jpg);
+}
+section#news .container ul li:nth-child(10) a::before{
+  background-image: url(../img/news10.jpg);
+}
+section#news .container ul li a {
+  
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+section#news .container ul li a h5 {
+  
+  font-size: 14px;
+  color: red;
+}
+section#news .container ul li a h3 {
+  
+  font-size: 16px;
+  line-height: 1.5;
+  padding-bottom: 20px;
+  height: 50px;
+}
+section#news .container ul li a date {
+  
+  color: #ccc;
+}

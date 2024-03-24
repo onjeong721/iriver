@@ -1,0 +1,76 @@
+footer {
+ 
+  background-color: black;
+  padding: 50px 0;
+}
+footer .wrap { 
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto auto;
+  row-gap: 30px;
+}
+footer .wrap h1 {
+ 
+}
+footer .wrap ul.footerMenu {
+ 
+}
+footer .wrap ul.footerMenu li {
+ 
+}
+footer .wrap ul.footerMenu li a {
+  color: white;
+  padding: 0 20px;
+}
+footer .wrap ul.footerMenu li:first-child a{
+  padding: 0 10px 0 0;
+}
+footer .wrap select {
+  justify-self: end;
+  background-color: black;
+  color: white;
+}
+footer .wrap select option{
+ 
+}
+footer .wrap p.contact {
+ 
+}
+footer .wrap adress { 
+  grid-column: 1;
+  grid-row: 3;
+}
+footer .wrap p.copy {
+ grid-column: 1;
+  grid-row: 3;
+ margin-top: 20px;
+}
+footer .wrap ul.footerSns {
+ 
+  justify-self: end;
+}
+footer .wrap ul.footerSns li {
+ 
+}
+footer .wrap ul.footerSns li a {
+  color: white;
+  padding: 0 10px;
+  font-size: 0;
+  display: block;
+  width: 30px;
+  height: 23px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+footer .wrap ul.footerSns li:nth-child(1) a{
+  background-image: url(../img/insta_w.svg);
+}
+footer .wrap ul.footerSns li:nth-child(2) a{
+   background-image: url(../img/youtube_w.svg);
+}
+footer .wrap ul.footerSns li:last-child a{
+  padding: 0 0 0 10px;
+  background-image: url(../img/naver_w.svg);
+}

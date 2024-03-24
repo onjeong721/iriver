@@ -1,0 +1,44 @@
+#title {
+  padding-left: 220px;
+}
+#title .title_container{
+  height: 100%;
+  overflow: hidden;
+}
+#title .title_container .title_main {
+  background-image: url(../img/title1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  padding: 0 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 50px;
+}
+#title .title_container .title_main:nth-child(2) {
+  background-image: url(../img/title2.jpg);
+}
+#title .title_container .title_main:nth-child(3){
+  background-image: url(../img/title3.jpg);
+}
+#title .title_container .title_main:nth-child(4){
+  background-image: url(../img/title4.jpg);
+}
+#title .title_container .title_main:nth-child(5){
+  background-image: url(../img/title5.jpg);
+}
+#title .title_container .title_main h3{
+  color: white;
+  font-size: 80px;
+}
+#title .title_container .title_main p{ 
+  color: white;
+  font-size: 28px;
+}
+#title .title_container .title_main a{ 
+  color: white;
+  font-size: 20px;
+}

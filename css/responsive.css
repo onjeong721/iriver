@@ -1,0 +1,12 @@
+@media screen and (max-width:768px){
+  .container{
+    padding: 0 15px;
+    margin-left: 0;
+  }
+  .top{
+    padding: 0 15px;
+  }
+  #title{
+   padding: 0 15px; 
+  }
+} 
