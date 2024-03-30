@@ -1,5 +1,5 @@
 # 아이리버 웹 페이지 디자인클론코딩
-<img src="https://github.com/onjeong721/kswallcoverings/assets/150096277/eb58a051-2ec7-478a-a9b6-6c5f2daf8292" width="80%" height="auto"/>
+<img src="https://github.com/onjeong721/iriver/assets/150096277/c2a07c02-16d1-4daa-9d0a-1add469f1068" width="80%" height="auto"/>
 
 ## 프로젝트 소개
  * 프로젝트 사이트: https://onjeong721.github.io/iriver/
